@@ -46,13 +46,13 @@ Technologies Used
 
 1. Clone the repository:
 
-          git clone https://github.com/yourusername/my-portfolio-app.git
+          git clone https://github.com/DavidGebeyehuOne/My_Portfolio.git
 
-2. Install dependencies:
+3. Install dependencies:
 
           npm install
    
-3. Start the development server:
+4. Start the development server:
 
           npm start
 
