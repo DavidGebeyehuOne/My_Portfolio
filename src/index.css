@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Existing styles... */
+
+/* DARK THEME STYLES */
+.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark p {
+  color: #b3b3b3;
+}
+
+.dark a {
+  color: #ffffff;
+}
+
+.dark a:hover {
+  color: #cccccc;
+}
+
+.dark .btn-color-1,
+.dark .btn-color-2 {
+  border-color: #ffffff;
+}
+
+.dark .btn-color-1,
+.dark .btn-color-2:hover {
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.dark .btn-color-1:hover {
+  background: #cccccc;
+}
+
+.dark .btn-color-2 {
+  color: #ffffff;
+}
+
+.dark .details-container {
+  background: #2a2a2a;
+  border-color: #4a4a4a;
+}
+
+.dark .color-container {
+  border-color: #4a4a4a;
+  background: #2a2a2a;
+}
+
+.dark .hamburger-icon span {
+  background-color: #ffffff;
+}
+
+.dark .menu-links {
+  background-color: #1a1a1a;
+}
+
+.dark .menu-links a {
+  color: #ffffff;
+}
+
+.dark .contact-info-upper-container {
+  border-color: #4a4a4a;
+  background: #2a2a2a;
+}
+
+/* Add more dark theme styles as needed */
