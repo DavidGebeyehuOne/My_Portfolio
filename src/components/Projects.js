@@ -24,25 +24,25 @@ const Projects = ({ theme }) => {
       name: "QR Code Generator",
       description: "This project is a QR Code Generator built using React.js. Users can input text, and the app will generate a customized QR code. Additionally, users can change the QR code color, set a background color, and even upload a custom background image for the QR code.",
       image: project1Image,
-      github: "https://github.com/DawitGebeyehu12/QR-code-generator"
+      github: "https://github.com/DavidGebeyehuOne/QR-code-generator"
     },
     {
       name: "Expense Tracker",
       description: "This project is a React.js based Expense Tracker that helps users manage their personal finances by tracking their income and expenses. Users can add new transactions, view a summary of their balance, income, and expenses, and delete transactions.",
       image: project2Image,
-      github: "https://github.com/DawitGebeyehu12/Expense_Tracker"
+      github: "https://github.com/DavidGebeyehuOne/Expense_Tracker"
     },
     {
       name: "Todolist",
       description: "This project is a simple yet feature-rich Todo List application built using React.js. The app allows users to add tasks with specific due dates and times, manage task statuses (active, completed, overdue), and filter tasks by their state.",
       image: project3Image,
-      github: "https://github.com/DawitGebeyehu12/Todolist"
+      github: "https://github.com/DavidGebeyehuOne/Todo-list"
     },
     {
       name: "Tic Tac Toe",
       description: "This is a simple implementation of the classic Tic Tac Toe game built using React. The game allows two players to take turns marking the cells in a 3x3 grid with 'X' and 'O'.",
       image: project4Image,
-      github: "https://github.com/DawitGebeyehu12/Tic-Tac-Toe"
+      github: "https://github.com/DavidGebeyehuOne/Tic-Tac-Toe"
     }
   ];
 
