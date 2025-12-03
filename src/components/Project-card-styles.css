@@ -1,0 +1,32 @@
+/* Project card direct children padding (no wrapper divs) */
+.project-item>.project-title {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 0.75rem;
+    text-align: left;
+}
+
+.project-item>.project-tags {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-align: left;
+}
+
+.project-item>.project-description {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-align: left;
+}
+
+.project-item>.view-more-btn {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-align: left;
+}
+
+.project-item>.btn-container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-align: left;
+}

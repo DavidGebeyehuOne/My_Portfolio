@@ -11,8 +11,8 @@ function Header() {
   return (
     <header>
       <nav id="desktop-nav">
-        <div className="logo">Dawit Gebeyehu</div>
-        <div>
+        <div className="nav-inner">
+          <div className="logo">Dawit Gebeyehu</div>
           <ul className="nav-links">
             <li><Link to="/about">About</Link></li>
             <li><Link to="/experience">Experience</Link></li>
@@ -22,18 +22,20 @@ function Header() {
         </div>
       </nav>
       <nav id="hamburger-nav">
-        <div className="logo">Dawit Gebeyehu</div>
-        <div className="hamburger-menu">
-          <div className={`hamburger-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
-            <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
-            <li><Link to="/experience" onClick={toggleMenu}>Experience</Link></li>
-            <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
-            <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+        <div className="nav-inner">
+          <div className="logo">Dawit Gebeyehu</div>
+          <div className="hamburger-menu">
+            <div className={`hamburger-icon ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
+              <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
+              <li><Link to="/experience" onClick={toggleMenu}>Experience</Link></li>
+              <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
+              <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+            </div>
           </div>
         </div>
       </nav>
