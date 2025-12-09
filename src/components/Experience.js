@@ -11,17 +11,17 @@ const Experience = ({ theme }) => {
         { name: "React / Next.js", level: "Expert", proficiency: 92 },
         { name: "TypeScript", level: "Advanced", proficiency: 88 },
         { name: "CSS / Tailwind", level: "Expert", proficiency: 90 },
-        { name: "Design Systems", level: "Advanced", proficiency: 86 },
+        { name: "JavaScript", level: "Advanced", proficiency: 86 },
       ]
     },
     {
       category: "Backend & Cloud",
       summary: "Reliable APIs, automation pipelines, and observability",
       skills: [
-        { name: "Node.js / Express", level: "Advanced", proficiency: 84 },
-        { name: "Python / Django", level: "Advanced", proficiency: 82 },
+        { name: "Node.js ", level: "Advanced", proficiency: 84 },
+        { name: "Python ", level: "Advanced", proficiency: 82 },
         { name: "PostgreSQL / Prisma", level: "Advanced", proficiency: 80 },
-        { name: "AWS / CI-CD", level: "Intermediate", proficiency: 76 },
+      
       ]
     }
   ];

@@ -6,6 +6,7 @@ import project3Image from '../assets/todo_list_mockup.png';
 import project4Image from '../assets/tic_tac_toe_mockup.png';
 import habitTrackerGraphic from '../assets/habit-tracker.svg';
 import handGestureGraphic from '../assets/hand-gesture.svg';
+import './Project-card-styles.css';
 
 const ProjectItem = ({ project, theme }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -24,35 +25,37 @@ const ProjectItem = ({ project, theme }) => {
         />
       </div>
 
-      <h3 className="project-title">{project.name}</h3>
+      <div className="project-details">
+        <h3 className="project-title">{project.name}</h3>
 
-      {project.tags && (
-        <div className="project-tags">
-          {project.tags.map((tag, tagIndex) => (
-            <span key={tagIndex} className="project-tag">{tag}</span>
-          ))}
-        </div>
-      )}
+        {project.tags && (
+          <div className="project-tags">
+            {project.tags.map((tag, tagIndex) => (
+              <span key={tagIndex} className="project-tag">{tag}</span>
+            ))}
+          </div>
+        )}
 
-      <p className={`project-description ${isExpanded ? 'expanded' : ''}`}>
-        {project.description}
-      </p>
+        <p className={`project-description ${isExpanded ? 'expanded' : ''}`}>
+          {project.description}
+        </p>
 
-      <button
-        className="view-more-btn"
-        onClick={toggleExpand}
-      >
-        {isExpanded ? 'Show Less' : 'View More'}
-      </button>
-
-      <div className="btn-container">
         <button
-          className="btn project-btn"
-          onClick={() => window.open(project.github, '_blank')}
+          className="view-more-btn"
+          onClick={toggleExpand}
         >
-          <span className="btn-icon">⚡</span>
-          View on Github
+          {isExpanded ? 'Show Less' : 'View More'}
         </button>
+
+        <div className="btn-container">
+          <button
+            className="btn project-btn"
+            onClick={() => window.open(project.github, '_blank')}
+          >
+            <span className="btn-icon">⚡</span>
+            View on Github
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -136,7 +139,13 @@ const Projects = ({ theme }) => {
         <div className="see-more-container">
           <button
             className="btn btn-see-more"
-            onClick={() => setShowAll(!showAll)}
+            onClick={() => {
+              const newShowAll = !showAll;
+              setShowAll(newShowAll);
+              if (!newShowAll) {
+                document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             <span className="btn-icon">{showAll ? '▲' : '▼'}</span>
             {showAll ? 'See Less' : 'See More Projects'}

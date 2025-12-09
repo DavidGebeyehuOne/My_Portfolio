@@ -12,7 +12,7 @@ function Header() {
     <header>
       <nav id="desktop-nav">
         <div className="nav-inner">
-          <div className="logo">Dawit Gebeyehu</div>
+          <div className="logo">My Portfolio</div>
           <ul className="nav-links">
             <li><Link to="/about">About</Link></li>
             <li><Link to="/experience">Experience</Link></li>

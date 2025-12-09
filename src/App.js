@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import './components/Project-card-styles.css';
 import Navbar from './components/Navbar';
-import Profile from './components/Profile';
+import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -25,7 +25,7 @@ function App() {
     <ErrorBoundary>
       <div className={`App ${theme}`}>
         <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <Profile theme={theme} />
+        <Home theme={theme} />
         <About theme={theme} />
         <Experience theme={theme} />
         <Projects theme={theme} />

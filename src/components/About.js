@@ -53,22 +53,23 @@ const About = () => {
 
           {/* Description */}
           <div className="about-description about-description-pro">
-            <p>
-              I translate ambitious product ideas into thoughtful, production-ready solutions.
-              From the first strategy workshop to the final performance audit, I stay hands-on and
-              collaborative with founders, PMs, and cross-functional teams.
+            <p style={{ textAlign: "justify" }}>
+              I specialize in translating concepts into robust, production-ready software, maintaining a hands-on approach
+              throughout all stages of development while collaborating closely with product managers and
+              crossnctional teams. My work emphasizes careful planning, systematic architecture, and adherence to best practices to ensure solutions are reliable, maintainable, and scalable.
             </p>
-            <p>
-              My sweet spot is crafting immersive web experiences with&nbsp;
-              <strong>React</strong>, <strong>Next.js</strong>, <strong>Python</strong>, and modern
-              cloud tooling. I emphasize accessibility, system thinking, and measurable business
-              outcomes.
+            <p style={{ textAlign: "justify" }}>
+              My expertise lies in developing high-performance, intuitive web applications
+              using JavaScript, TypeScript, Python, and modern frameworks, with a strong
+              focus on accessibility and long-term impact. I am committed to delivering
+              solutions that are both technically elegant and capable of generating
+              measurable value for end users.
             </p>
 
-          
-            </div>
+
           </div>
         </div>
+      </div>
     </section>
   );
 };
