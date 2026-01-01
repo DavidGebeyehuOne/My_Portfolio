@@ -53,12 +53,12 @@ const About = () => {
 
           {/* Description */}
           <div className="about-description about-description-pro">
-            <p style={{ textAlign: "justify" }}>
+            <p>
               I specialize in translating concepts into robust, production-ready software, maintaining a hands-on approach
               throughout all stages of development while collaborating closely with product managers and
               crossnctional teams. My work emphasizes careful planning, systematic architecture, and adherence to best practices to ensure solutions are reliable, maintainable, and scalable.
             </p>
-            <p style={{ textAlign: "justify" }}>
+            <p>
               My expertise lies in developing high-performance, intuitive web applications
               using JavaScript, TypeScript, Python, and modern frameworks, with a strong
               focus on accessibility and long-term impact. I am committed to delivering
