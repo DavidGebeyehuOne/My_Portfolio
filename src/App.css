@@ -828,6 +828,17 @@ section {
   filter: brightness(0) saturate(100%) invert(1);
 }
 
+.social-icon-fa {
+  font-size: 24px;
+  color: var(--color-primary);
+  transition: all var(--transition-base);
+  z-index: 1;
+}
+
+.social-link:hover .social-icon-fa {
+  color: #fff;
+}
+
 .scroll-indicator {
   position: relative;
   margin-top: 2rem;

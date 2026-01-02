@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 // Import images from assets
 import profilePic from '../assets/profile-pic.jpg';
-import linkedinIcon from '../assets/linkedin.png';
-import githubIcon from '../assets/github.png';
 // Import resume from assets
 import myResume from '../assets/My CV.pdf';
 
@@ -100,16 +99,18 @@ const Home = ({ theme }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
+                title="LinkedIn"
               >
-                <img src={linkedinIcon} alt="LinkedIn" className="social-icon" />
+                <FaLinkedin className="social-icon-fa" />
               </a>
               <a
                 href="https://github.com/dawitgebeyehuOne"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
+                title="GitHub"
               >
-                <img src={githubIcon} alt="GitHub" className="social-icon" />
+                <FaGithub className="social-icon-fa" />
               </a>
             </div>
 
